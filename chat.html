@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat with YeonA- Kokoa Clone</title>
+</head>
+<body id="chat-screen">
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>18:42</span>
+    </div>
+    <div class="status-bar__column">
+      <span>110%</span>
+      <i class="fas fa-battery-full fa-lg"></i>
+      <i class="fas fa-bolt"></i>
+    </div>
+  </div>
+
+  <header class="alt-header">
+    <div class="alt-header__column">
+      <a href="chats.html">
+        <i class="fas fa-angle-left fa-3x"></i>
+      </a>
+    </div>
+    <div class="alt-header__column">
+      <h1 class="alt-header__title">연아</h1>
+    </div>
+    <div class="alt-header__column">
+      <span><i class="fas fa-search fa-lg"></i></span>
+      <span><i class="fas fa-bars fa-lg"></i></span>
+    </div>
+  </header>
+
+  <main class="main-screen main-chat">
+    <div class="chat__timestamp">
+      Sunday, January 15, 2023
+    </div>
+
+    <div class="message-row">
+      <img src="http://jjal.today/data/file/gallery/1890107372_l9z0NH2T_4685f176de9b59f1a453182a922450fb03b1cd09.png" />
+      <div class="message-row__content">
+        <span class="message__author">연아</span>
+        <div class="message__info">
+          <span class="message__bubble">Hi!!</span>
+          <span class="message__time">21:27</span>
+        </div>
+      </div>
+    </div>
+    <div class="message-row message-row__own">
+      <div class="message-row__content">
+        <div class="message__info">
+          <span class="message__bubble">Hello~ Nice to meet you!</span>
+          <span class="message__time">21:27</span>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+
+  <form class="reply">
+    <div class="reply__column">
+      <i class="far fa-plus-square fa-lg"></i>
+    </div>
+    <div class="reply__column">
+      <input type="text" placeholder="Write a message.">
+      <i class="far fa-grin fa-lg"></i>
+      <button>
+        <i class="fas fa-arrow-up"></i>
+      </button>
+    </div>
+  </form>
+
+
+  <script src="https://kit.fontawesome.com/6478f529f2.js"
+  crossorigin="anonymous">
+  </script>
+</body>
+</html>
